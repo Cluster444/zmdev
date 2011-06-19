@@ -1,4 +1,155 @@
-/*
-  Override default refinery application CSS below.
-  Formatting applies to all frontend.
-*/
+/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p180@zmdev/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p180@zmdev/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p180@zmdev/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p180@zmdev/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p180@zmdev/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p180@zmdev/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p180@zmdev/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p180@zmdev/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 115, ../../../../.rvm/gems/ruby-1.9.2-p180@zmdev/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 3, ../../app/stylesheets/application.scss */
+#site_bar {
+  display: none;
+}
+
+/* line 5, ../../app/stylesheets/application.scss */
+body {
+  background: none repeat scroll 0 0 #CCCCCC;
+  font-family: arial;
+  height: 100%;
+}
+
+/* line 11, ../../app/stylesheets/application.scss */
+h1 {
+  font-size: 32px;
+}
+
+/* line 15, ../../app/stylesheets/application.scss */
+#page_container {
+  background: none repeat scroll 0 0 #FFFFFF;
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* line 21, ../../app/stylesheets/application.scss */
+footer {
+  background-color: #333333;
+  color: #CCCCCC;
+  width: 960px;
+  padding: 6px 0;
+  text-align: center;
+}
+
+/* line 29, ../../app/stylesheets/application.scss */
+header {
+  background-color: #333333;
+  padding: 6px 0;
+  margin-top: 20px;
+  width: 960px;
+}
+/* line 34, ../../app/stylesheets/application.scss */
+header a {
+  color: #FFF;
+  text-decoration: none;
+}
+/* line 38, ../../app/stylesheets/application.scss */
+header h1 {
+  font-size: 30px;
+  margin-left: 13px;
+  text-transform: uppercase;
+}
+/* line 44, ../../app/stylesheets/application.scss */
+header nav {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #AAAAAA;
+  height: 36px;
+  margin-top: 6px;
+  position: relative;
+  width: 960px;
+}
+/* line 51, ../../app/stylesheets/application.scss */
+header nav a {
+  color: #222222;
+}
+/* line 54, ../../app/stylesheets/application.scss */
+header nav ul {
+  left: 6px;
+  position: absolute;
+  top: 10px;
+  width: 948px;
+}
+/* line 60, ../../app/stylesheets/application.scss */
+header nav ul li a {
+  border-right: 1px solid #AAAAAA;
+  color: #666666;
+  font-size: 11px;
+  height: 13px;
+  padding: 0 14px;
+  text-transform: uppercase;
+}
+/* line 68, ../../app/stylesheets/application.scss */
+header nav ul li.last a {
+  border-right: none;
+}
+
+/* line 77, ../../app/stylesheets/application.scss */
+section#page a {
+  color: #222;
+}
